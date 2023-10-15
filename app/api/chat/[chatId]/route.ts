@@ -1,4 +1,3 @@
-import dotenv from "dotenv";
 import { NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs";
 import { Replicate } from "langchain/llms/replicate";
